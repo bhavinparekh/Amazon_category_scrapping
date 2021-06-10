@@ -1,5 +1,6 @@
 # Amazon category scrapping
 
+Scrapping amazon categories base on keyword using tor proxy.
 
 ## Port
 
