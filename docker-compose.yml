@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  main:
+    build: .
+    links:
+      - tor
+
+  tor:
+    build:
+      context: ./tor
+    restart: always
+    ports:
+      - 9050:9050
+    volumes:
+      - tor-data:/var/lib/tor
+
+volumes:
+    tor-data:
+      driver: local
+

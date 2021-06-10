@@ -1,0 +1,6 @@
+selenium==3.141.0
+python-environ==0.4.54
+pandas
+bs4
+fake_useragent
+chromedriver_autoinstaller
